@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewpoint" content="wdith=device-widith, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <title>ONE FAMILLY LIGHTINGS LIMITED</title>
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+<h1> ONE FAMILY LIGHTINGS LIMITED</h1>
+<h2></h2>
+<h3></h3>
+
+<p></p>
+<section id="header">
+    <a href="#"><image src="image/imglogo.png" class="logo" alt=""></a>
+
+        <div>
+            <ul id="navbar">
+            <li><a  href="index.html">Home</a></li>
+             <li><a href="shop.html">Shop</a></li>
+              <li><a href="blog.html">Blog</a></li>
+               <li><a href="about.html">About</a></li>
+                <li><a  href="contact.html">Contact</a></li>
+                  <li id="lg-bag"><a class="active" href="cart.html"><image src="image/shoppingcart.png" alt=""  style="width: 50px; height: auto;"></a></li>
+                <a href="#" id="close"> <i class="far fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><image src="image/shoppingcart.png" alt=""  style="width: 30px; height: auto;"></a>
+                 <i id="bar" class="fas fa-outdent"></i>
+        </div>
+</section>
+
+<section id="page-header">
+    
+    <h2>#Cart.</h2>
+    <p>Lets shop.</p>
+
+</section>
+<section id="cart" class="section-p1">
+    <table width="100%">
+        <thead>
+            <tr>
+                <td>Remove</td>
+                <td>Image</td>
+                <td>Product</td>
+                <td>Pricing</td>
+                <td>Quantity</td>
+                <td>Subtotal</td>
+            </tr>
+        </thead>
+
+        
+        <tbody>
+            <tr>
+                <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                <td ><img src="image/img19.jpg" alt=""></td>
+                <td>Mode Gold LED Chandelier</td>
+                <td>KSH 10,000</td>
+                <td><input type="number" value="1"></td>
+                <td>KSH 10,000</td>
+
+            </tr>
+
+             <tr>
+                <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                <td ><img src="image/img2.jpg" alt=""></td>
+                <td>Square Ceiling LED Fixture</td>
+                <td>KSH 10,000</td>
+                <td><input type="number" value="1"></td>
+                <td>KSH 10,000</td>
+
+            </tr>
+
+             <tr>
+                <td><a href="#"><i class="far fa-times-circle"></i></a></td>
+                <td ><img src="image/img10.jpg" alt=""></td>
+                <td>Integrated LED Pendant Light</td>
+                <td>KSH 9,500</td>
+                <td><input type="number" value="1"></td>
+                <td>KSH 9,500</td>
+
+            </tr>
+        </tbody>
+    </table>
+</section>
+
+<div class="row" style="padding-top: 20px;">
+  <div class="col-75">
+    <div class="container">
+      <form action="/action_page.php">
+      
+        <div class="row">
+          <div class="col-50">
+            <h3>Billing Address</h3>
+            <label for="fname"><i class="fa fa-user"></i> Full Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="John M. Doe">
+            <label for="email"><i class="fa fa-envelope"></i> Email</label>
+            <input type="text" id="email" name="email" placeholder="john@example.com">
+            <label for="adr"><i class="fa fa-address-card-o"></i> Address</label>
+            <input type="text" id="adr" name="address" placeholder="542 W. 15th Street">
+            <label for="city"><i class="fa fa-institution"></i> City</label>
+            <input type="text" id="city" name="city" placeholder="New York">
+
+            <div class="row">
+              <div class="col-50">
+                <label for="state">State</label>
+                <input type="text" id="state" name="state" placeholder="NY">
+              </div>
+              <div class="col-50">
+                <label for="zip">Zip</label>
+                <input type="text" id="zip" name="zip" placeholder="10001">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-50">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+            <h3>Payment</h3>
+            <label for="fname">Accepted Cards</label>
+           <div class="payment-icons">
+  <i class="fab fa-cc-visa" style="color:navy; font-size: 30px;"></i>
+  <i class="fab fa-cc-mastercard" style="color:red; font-size: 30px;"></i>
+  <i class="fab fa-cc-paypal" style="color:blue; font-size: 30px;"></i>
+   <i class="fab fa-cc-discover" style="color:orange; font-size: 30px;"></i>
+</div>
+            
+            <label for="cname">Name on Card</label>
+            <input type="text" id="cname" name="cardname" placeholder="John More Doe">
+            <label for="ccnum">Credit card number</label>
+            <input type="text" id="ccnum" name="cardnumber" placeholder="1111-2222-3333-4444">
+            <label for="expmonth">Exp Month</label>
+            <input type="text" id="expmonth" name="expmonth" placeholder="September">
+            <div class="row">
+              <div class="col-50">
+                <label for="expyear">Exp Year</label>
+                <input type="text" id="expyear" name="expyear" placeholder="2018">
+              </div>
+              <div class="col-50">
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" name="cvv" placeholder="352">
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        <label>
+          <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+        </label>
+        <input type="submit" value="Continue to checkout" class="btn">
+      </form>
+    </div>
+  </div>
+  
+</div>
+
+
+
+<footer class="section-p1">
+    <div class="col">
+        <img src="image/imglogo.png" alt="" style="width: 100px; height: auto; padding-top: 20px; padding-left: 20px; margin-bottom: 20px;">
+
+  <h4>Contact Us</h4>
+      <p><strong>Phone:</strong> +254 112228818 </p>
+      <p><strong>Email:</strong> onefamilylighting531@gmail.com</p>
+      <p><strong>Location:</strong> Nairobi, Kenya</p>
+    </div>
+    <div class="follow">
+        <h4>Follow Us</h4>
+        <p>Follow us on social media platforms to stay updated with our latest products and offers.</p>
+          <h4> ONE FAMILY LIGHTINGS LIMITED.</h4>
+  
+        <div class="icon">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <a href="https://l.instagram.com/?u=https%3A%2F%2Fwww.instagram.com%2Fone_family_lighting_limmited%3Figsh%3DMTdkNThlOW0ycHE3bA%253D%253D%26fbclid%3DPAZXh0bgNhZW0CMTEAAaecd8Rmai33wq_KUfOmJeoIIDod_jrU6glssRfIIa_b9dGpRnXuxl6zvODjiw_aem_1YaNEohDCguh1It-kwlvVg&e=AT0HimbHiz5pTMNuCehmzte3p_uyt3a5Tkc_8CSZETPZ3IncndLw2QSUvhrRJXTMVHpE9t2A5DHAnFyudQp_K5OReJVBWfc5Q6ORFWw"target="_blank" style="margin: 10px; color:#e1306c;">
+    <i class="fab fa-instagram"></i>
+  </a>
+  <a href="https://wa.me/message/SNMSC5DNRGD4E1" target="_blank" style="margin: 10px; color:#25D366;">
+    <i class="fab fa-whatsapp"></i>
+  </a>
+  <a href="https://www.tiktok.com/@onefamilylightingslimited" target="_blank" style="margin: 10px; color:#000;">
+    <i class="fab fa-tiktok"></i>
+  </a>
+  <a href="https://www.facebook.com/425098667345188?ref=_xav_ig_profile_page_web_bt" target="_blank" style="margin: 10px; color:#1877F2;">
+    <i class="fab fa-facebook"></i>
+    <a href="onefamilylighting531@gmail.com" target="_blank" >
+  </a>
+</div>
+</div>
+
+
+  
+
+
+  <div class="col">
+    <h4>About</h4>
+    <a href="#">About us</a>
+    <a href="#">Delivary Information</a>
+    <a href="#">Privacy policy</a>
+    <a href="#">Terms & Condition</a>
+    <a href="#">Contact Us</a>
+  </div>
+
+  <div class="col">
+    <h4>My Account</h4>
+    <a href="#">Sign Up</a>
+    <a href="#">View Cart</a>
+    <a href="#">My Whishlist</a>
+    <a href="#">Track my Oder</a>
+    <a href="#">Help</a>
+  </div>
+  <div class="Copyright">
+    <p>&copy; 2023 ONE FAMILY LIGHTINGS LIMITED. ALL RIGHTS RESERVED </p>
+  </div>
+</footer>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
+
